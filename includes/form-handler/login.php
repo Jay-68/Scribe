@@ -1,6 +1,6 @@
 <?php
   session_start();
-  $mysqli = new mysqli("localhost","root","","blog") or die("Could not connect");
+  $mysqli = new mysqli("localhost","root","","scribe") or die("Could not connect");
   $error = [];
 
   if(isset($_POST['login_submit'])){
